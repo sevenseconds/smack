@@ -17,6 +17,7 @@
 		145DDDF0209F7A0C00D410AB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145DDDEF209F7A0C00D410AB /* Constants.swift */; };
 		145DDDF2209F7F3200D410AB /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145DDDF1209F7F3200D410AB /* LoginVC.swift */; };
 		14957DD2209F885F004BC1CC /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14957DD1209F885F004BC1CC /* CreateAccountVC.swift */; };
+		14957DD5209FE6A6004BC1CC /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14957DD4209FE6A6004BC1CC /* AuthService.swift */; };
 		6844014C2C5CD56225F808A8 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 684404BB090C2E991B5AAFE0 /* .gitignore */; };
 		684408015208F92797242C7B /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68440EB78A555D9D97FD09CC /* SWRevealViewController.m */; };
 		ECEB16950B817A8E5F2E09C9 /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 988BB4CB34FF2C6A6FED634D /* Pods_Smack.framework */; };
@@ -35,6 +36,7 @@
 		145DDDEF209F7A0C00D410AB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		145DDDF1209F7F3200D410AB /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		14957DD1209F885F004BC1CC /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
+		14957DD4209FE6A6004BC1CC /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		684401694019CDF9058EA2F3 /* Smack-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Smack-Bridging-Header.h"; sourceTree = "<group>"; };
 		684404BB090C2E991B5AAFE0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 		68440CE967AA2926A215285B /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 		145DDDCE209F525300D410AB /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				14957DD3209FE689004BC1CC /* Service */,
 				145DDDEE209F79E900D410AB /* Utilities */,
 				684409B08E70F26665A0BBDB /* Supporting Files */,
 				145DDDCF209F525300D410AB /* AppDelegate.swift */,
@@ -98,6 +101,14 @@
 				145DDDEF209F7A0C00D410AB /* Constants.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		14957DD3209FE689004BC1CC /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				14957DD4209FE6A6004BC1CC /* AuthService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 		348862247CEC6C04C8A257AD /* Pods */ = {
@@ -276,6 +287,7 @@
 				145DDDEB209F67FC00D410AB /* ChannelVC.swift in Sources */,
 				145DDDE9209F67D800D410AB /* ChatVC.swift in Sources */,
 				14957DD2209F885F004BC1CC /* CreateAccountVC.swift in Sources */,
+				14957DD5209FE6A6004BC1CC /* AuthService.swift in Sources */,
 				145DDDED209F71A900D410AB /* GradientView.swift in Sources */,
 				145DDDD0209F525300D410AB /* AppDelegate.swift in Sources */,
 				684408015208F92797242C7B /* SWRevealViewController.m in Sources */,
