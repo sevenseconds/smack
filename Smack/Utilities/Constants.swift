@@ -15,6 +15,7 @@ let BASE_URL = "https://chat-seven.herokuapp.com"
 let API_VERSION = "v1"
 let URL_REGISTER = "\(BASE_URL)/\(API_VERSION)/account/register"
 let URL_LOGIN = "\(BASE_URL)/\(API_VERSION)/account/login"
+let URL_USER_ADD = "\(BASE_URL)/\(API_VERSION)/user/add"
 
 // Segue
 let TO_LOGIN = "toLogin"
