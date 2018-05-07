@@ -12,7 +12,8 @@ typealias CompletionHandler = (_ Success: Bool) -> ()
 
 // URL Constants
 let BASE_URL = "https://chat-seven.herokuapp.com"
-let URL_REGISTER = "\(BASE_URL)/account/register"
+let API_VERSION = "v1"
+let URL_REGISTER = "\(BASE_URL)/\(API_VERSION)/account/register"
 
 // Segue
 let TO_LOGIN = "toLogin"
