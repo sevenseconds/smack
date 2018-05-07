@@ -33,8 +33,9 @@ class AvatarPickerVC: UIViewController, UICollectionViewDataSource, UICollection
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         var numOfColumns: CGFloat = 3
+        
         if UIScreen.main.bounds.width > 320 {
-            
+            numOfColumns = 4
         }
         
         let spaceBetweenCells: CGFloat = 10
