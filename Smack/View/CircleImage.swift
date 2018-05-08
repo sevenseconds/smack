@@ -9,7 +9,7 @@
 import UIKit
 
 @IBDesignable
-class CircleImage: UIImageView {
+class CircleImage : UIImageView {
     
     override func prepareForInterfaceBuilder() {
         super.prepareForInterfaceBuilder()

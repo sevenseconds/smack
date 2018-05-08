@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ChatVC: UIViewController {
+class ChatVC : UIViewController {
     
     @IBOutlet weak var menuBtn: UIButton!
     
@@ -23,6 +23,9 @@ class ChatVC: UIViewController {
             AuthService.instance.findUserByEmail { (success) in
                 NotificationCenter.default.post(name: NOTIF_USER_DATA_DID_CHANGE, object: nil)
             }
+        }
+        MessageService.instance.findAllChannel { (success) in
+            
         }
     }
     

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CreateAccountVC: UIViewController {
+class CreateAccountVC : UIViewController {
     
     @IBOutlet weak var usernameTxt: UITextField!
     @IBOutlet weak var emailTxt: UITextField!
