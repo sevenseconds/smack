@@ -15,6 +15,8 @@
 		1456322220A0A20100C0AD2C /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1456322120A0A20100C0AD2C /* MessageService.swift */; };
 		1456322420A0A24900C0AD2C /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1456322320A0A24900C0AD2C /* Channel.swift */; };
 		1456322620A13E2700C0AD2C /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1456322520A13E2700C0AD2C /* ChannelCell.swift */; };
+		1456322920A1445C00C0AD2C /* AddChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1456322720A1445C00C0AD2C /* AddChannelVC.swift */; };
+		1456322A20A1445C00C0AD2C /* AddChannelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1456322820A1445C00C0AD2C /* AddChannelVC.xib */; };
 		145DDDD0209F525300D410AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145DDDCF209F525300D410AB /* AppDelegate.swift */; };
 		145DDDD5209F525300D410AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 145DDDD3209F525300D410AB /* Main.storyboard */; };
 		145DDDD7209F525400D410AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 145DDDD6209F525400D410AB /* Assets.xcassets */; };
@@ -42,6 +44,8 @@
 		1456322120A0A20100C0AD2C /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
 		1456322320A0A24900C0AD2C /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 		1456322520A13E2700C0AD2C /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
+		1456322720A1445C00C0AD2C /* AddChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChannelVC.swift; sourceTree = "<group>"; };
+		1456322820A1445C00C0AD2C /* AddChannelVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddChannelVC.xib; sourceTree = "<group>"; };
 		145DDDCC209F525300D410AB /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		145DDDCF209F525300D410AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		145DDDD4209F525300D410AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -81,6 +85,7 @@
 		1456322020A0399F00C0AD2C /* XIB */ = {
 			isa = PBXGroup;
 			children = (
+				1456322820A1445C00C0AD2C /* AddChannelVC.xib */,
 				1456321D20A0398100C0AD2C /* ProfileVC.xib */,
 			);
 			path = XIB;
@@ -108,6 +113,9 @@
 		145DDDCE209F525300D410AB /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				68440F3FF32958F45EBB23FB /* Model */,
+				6844064B544294048F4F4D4F /* View */,
+				684401DA289E73036E9F2942 /* Controller */,
 				1456322020A0399F00C0AD2C /* XIB */,
 				14957DD3209FE689004BC1CC /* Service */,
 				145DDDEE209F79E900D410AB /* Utilities */,
@@ -117,9 +125,6 @@
 				145DDDD6209F525400D410AB /* Assets.xcassets */,
 				145DDDD8209F525400D410AB /* LaunchScreen.storyboard */,
 				145DDDDB209F525400D410AB /* Info.plist */,
-				684401DA289E73036E9F2942 /* Controller */,
-				6844064B544294048F4F4D4F /* View */,
-				68440F3FF32958F45EBB23FB /* Model */,
 			);
 			path = Smack;
 			sourceTree = "<group>";
@@ -160,6 +165,7 @@
 				14957DD1209F885F004BC1CC /* CreateAccountVC.swift */,
 				1456321620A0155900C0AD2C /* AvatarPickerVC.swift */,
 				1456321C20A0398100C0AD2C /* ProfileVC.swift */,
+				1456322720A1445C00C0AD2C /* AddChannelVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -265,6 +271,7 @@
 			files = (
 				145DDDDA209F525400D410AB /* LaunchScreen.storyboard in Resources */,
 				145DDDD7209F525400D410AB /* Assets.xcassets in Resources */,
+				1456322A20A1445C00C0AD2C /* AddChannelVC.xib in Resources */,
 				145DDDD5209F525300D410AB /* Main.storyboard in Resources */,
 				6844014C2C5CD56225F808A8 /* .gitignore in Resources */,
 				1456321F20A0398100C0AD2C /* ProfileVC.xib in Resources */,
@@ -336,6 +343,7 @@
 				14957DD5209FE6A6004BC1CC /* AuthService.swift in Sources */,
 				145DDDED209F71A900D410AB /* GradientView.swift in Sources */,
 				14957DD920A005BE004BC1CC /* UserDataService.swift in Sources */,
+				1456322920A1445C00C0AD2C /* AddChannelVC.swift in Sources */,
 				145DDDD0209F525300D410AB /* AppDelegate.swift in Sources */,
 				1456321920A019BB00C0AD2C /* AvatarCell.swift in Sources */,
 				684408015208F92797242C7B /* SWRevealViewController.m in Sources */,
